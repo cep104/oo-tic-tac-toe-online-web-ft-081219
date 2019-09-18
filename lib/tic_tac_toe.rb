@@ -68,7 +68,7 @@ def turn
     move(index,current_player)
     display_board
   else 
-  input
+ puts "Please choose a number 1-9:"
   end
 end
   
