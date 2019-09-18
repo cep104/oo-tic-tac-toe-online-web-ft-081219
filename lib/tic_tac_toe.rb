@@ -51,15 +51,8 @@ WIN_COMBINATIONS = [
 end
 
 def current_player
-  #if the turn count is an even number, that means O just went, so the next/current player is X
-  num_turns = turn_count
-  if num_turns % 2 == 0
-    player = "X"
-  else
-    player = "O"
+    turn_count % 2 == 0 ? "X" : "O"
   end
-  return player
-end
 
 def turn
     puts "please enter a number 1-9:"
