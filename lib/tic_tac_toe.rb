@@ -52,9 +52,9 @@ def turn
     puts "please enter a number 1-9:"
     input = gets.strip
     index = input_to_index(input)
-    cp = current_player
+    current_player
     if valid_move?(index)
-      move(index, cp)
+      move(index, current_player)
       display_board
     else
       turn
