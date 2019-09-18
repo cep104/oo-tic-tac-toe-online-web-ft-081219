@@ -71,7 +71,6 @@ def turn
   else 
  puts "Please choose a number 1-9:"
   end
-  turn
 end
   
   
